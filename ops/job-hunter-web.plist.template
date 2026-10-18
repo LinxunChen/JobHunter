@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>local.jobhunter.web</string>
+  <key>ProgramArguments</key><array><string>__ABSOLUTE_NODE22__</string><string>__PROJECT_ROOT__/src/server.mjs</string></array>
+  <key>WorkingDirectory</key><string>__PROJECT_ROOT__</string>
+  <!-- Web入口固定只监听127.0.0.1，不建立公网服务。 -->
+  <key>EnvironmentVariables</key><dict><key>JOBHUNTER_DB</key><string>__DATABASE_PATH__</string><key>JOBHUNTER_PORT</key><string>3210</string><key>JOBHUNTER_ATTACHMENT_PYTHON</key><string>__EXISTING_ATTACHMENT_PYTHON__</string><key>PATH</key><string>__RUNTIME_PATH__</string></dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>Umask</key><integer>63</integer>
+  <key>StandardOutPath</key><string>__PRIVATE_LOG_DIRECTORY__/web.log</string>
+  <key>StandardErrorPath</key><string>__PRIVATE_LOG_DIRECTORY__/web-error.log</string>
+</dict></plist>

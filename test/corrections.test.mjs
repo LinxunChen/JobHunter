@@ -1,0 +1,148 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtempSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { createApplication } from '../src/application.mjs';
+
+const sample = { title: '算法专家', recruitmentUnit: '示例院', department: '算法部', batch: '第一批', originalText: '示例院算法部第一批算法专家，硕士及以上，工作地点北京或上海。', knownConditions: ['硕士及以上'], location: { options: ['北京', '上海'] }, sourceIdentity: { sourceId: 'official-example', externalId: 'A1' }, observedAt: '2026-10-07T02:00:00Z' };
+function setup(t) {
+  const dir = mkdtempSync(join(tmpdir(), 'job-hunter-corrections-'));
+  t.after(() => rmSync(dir, { recursive: true, force: true }));
+  return { databasePath: join(dir, 'test.sqlite'), now: () => new Date('2026-10-07T03:00:00Z'), announcementProcessor: null };
+}
+
+test('人工纠正保存原值及依据，来源刷新不覆盖纠正、关注、备注或实际简历，重启可读', t => {
+  const options = setup(t);
+  let app = createApplication(options);
+  t.after(() => app.close());
+  const job = app.importJob(sample).job;
+  app.setPersonalState(job.id, { followed: true });
+  const application = app.setApplied(job.id, true);
+  app.updateApplication(application.id, { notes: '本人备注', resumeVersion: '实际提交-v1' });
+  assert.throws(() => app.correctJob(job.id, { field: 'location', value: { options: ['北京', '上海'], confirmed: '北京' } }), /纠正依据/);
+  const corrected = app.correctJob(job.id, { field: 'location', value: { options: ['北京', '上海'], confirmed: '北京' }, basis: { reason: '本人向招聘方核对，此申请确认为北京', sourceUrl: 'https://example.org/clarification', locator: '2026-10-07电话确认记录' } });
+  assert.equal(corrected.originalValue.confirmed, null);
+  assert.equal(corrected.value.confirmed, '北京');
+  app.importJob({ ...sample, originalText: sample.originalText + '\n页面模板改版', observedAt: '2026-10-08T02:00:00Z' });
+  assert.equal(app.getJob(job.id).location.confirmed, '北京');
+  assert.equal(app.getJob(job.id).manualCorrections[0].needsReview, false);
+  assert.equal(app.getSourceJob(job.id).location.confirmed, null);
+  assert.equal(app.getSourceJob(job.id).originalText, sample.originalText + '\n页面模板改版');
+  assert.equal(app.getPersonalState(job.id).followed, true);
+  assert.equal(app.getApplication(application.id).notes, '本人备注');
+  assert.equal(app.getApplication(application.id).resumeVersion, '实际提交-v1');
+  app.close();
+  app = createApplication(options);
+  assert.equal(app.getJob(job.id).location.confirmed, '北京');
+  assert.equal(app.listJobCorrections(job.id)[0].basis.locator, '2026-10-07电话确认记录');
+  assert.throws(() => app.correctJob(job.id, { field: 'originalText', value: '覆盖原文', basis: { reason: '测试' } }), /纠正字段/);
+  assert.throws(() => app.correctJob(job.id, { field: 'knownConditions', basis: { reason: '字段值遗漏不得误清空' } }), /纠正后的值/);
+});
+
+test('纠正批次只改变本人视图，不重绑来源身份或把纠正继承到新批次', t => {
+  const app = createApplication(setup(t));
+  t.after(() => app.close());
+  const job = app.importJob(sample).job;
+  app.correctJob(job.id, { field: 'batch', value: '第一批补充报名', basis: { reason: '本人核对为第一批的补充阶段' } });
+  const repeated = app.importJob({ ...sample, observedAt: '2026-10-08T02:00:00Z' });
+  assert.equal(repeated.job.id, job.id);
+  assert.equal(repeated.change.type, 'unchanged');
+  assert.equal(repeated.job.batch, '第一批补充报名');
+  assert.equal(app.getSourceJob(job.id).batch, '第一批');
+  const next = app.importJob({ ...sample, batch: '第二批', originalText: sample.originalText.replace('第一批', '第二批'), observedAt: '2026-10-09T02:00:00Z' });
+  assert.notEqual(next.job.id, job.id);
+  assert.equal(next.change.type, 'new_batch');
+  assert.equal(next.job.batch, '第二批');
+  assert.equal(next.job.manualCorrections.length, 0);
+  assert.equal(app.getJobHistory(job.id).versions[0].job.batch, '第一批');
+});
+
+test('Web及JSON通过共用入口保留纠正依据、提示实质变化适用性并显示新旧申请关联', async t => {
+  const { startServer } = await import('../src/server.mjs');
+  const app = createApplication(setup(t));
+  const first = app.importJob(sample).job;
+  const old = app.setApplied(first.id, true);
+  const next = app.importJob({ ...sample, batch: '第二批', originalText: sample.originalText.replace('第一批', '第二批') }).job;
+  const current = app.setApplied(next.id, true);
+  const server = await startServer({ app, port: 0 });
+  t.after(async () => { await new Promise(resolve => server.close(resolve)); app.close(); });
+  const base = `http://127.0.0.1:${server.address().port}`;
+  const saved = await fetch(base + `/jobs/${first.id}/corrections`, { method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams({ field: 'location', value: '北京', reason: '本人已核对城市', locator: '本人电话确认记录' }), redirect: 'manual' });
+  assert.equal(saved.status, 303);
+  const corrections = await (await fetch(base + `/api/jobs/${first.id}/corrections`)).json();
+  assert.equal(corrections[0].value.confirmed, '北京');
+  const html = await (await fetch(base + `/jobs/${first.id}`)).text();
+  assert.match(html, /人工纠正/);
+  assert.match(html, /本人已核对城市/);
+  app.importJob({ ...sample, originalText: sample.originalText.replace('硕士', '博士'), knownConditions: ['博士及以上'], observedAt: '2026-10-09T02:00:00Z' });
+  const changed = await (await fetch(base + `/jobs/${first.id}`)).text();
+  assert.match(changed, /需核对适用性/);
+  assert.match(changed, /暂停应用/);
+  const invalid = await fetch(base + `/api/jobs/${first.id}/corrections`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ field: 'originalText', value: '不得替换', basis: { reason: '测试' } }) });
+  assert.equal(invalid.status, 400);
+  const linked = await fetch(base + `/applications/${current.id}/links`, { method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams({ priorApplicationId: old.id, reason: '本人确认新批次再次申请' }), redirect: 'manual' });
+  assert.equal(linked.status, 303);
+  const api = await (await fetch(base + `/api/applications/${current.id}/links`)).json();
+  assert.equal(api[0].priorApplicationId, old.id);
+  const applications = await (await fetch(base + `/jobs/${next.id}`)).text();
+  assert.match(applications, /新批次申请关联/);
+  assert.match(applications, /本人确认新批次再次申请/);
+  assert.match(applications, /第一批/);
+  assert.match(applications, /第二批/);
+});
+
+test('本人新批次申请明确关联旧申请，两次实际简历及面试保持独立，重启可恢复', t => {
+  const options = setup(t);
+  let app = createApplication(options);
+  t.after(() => app.close());
+  const first = app.importJob(sample).job;
+  app.setPersonalState(first.id, { followed: true });
+  const old = app.setApplied(first.id, true);
+  app.updateApplication(old.id, { notes: '旧申请备注', resumeVersion: '旧实际简历-v1' });
+  app.recordApplicationEvent(old.id, { type: 'interview', note: '旧批次面试事实' });
+  const next = app.importJob({ ...sample, batch: '第二批', originalText: sample.originalText.replace('第一批', '第二批') }).job;
+  assert.equal(app.getPersonalState(next.id).applied, false);
+  assert.equal(app.getPersonalState(next.id).followed, false);
+  const current = app.setApplied(next.id, true);
+  app.updateApplication(current.id, { notes: '新申请备注', resumeVersion: '新实际简历-v2' });
+  const link = app.linkApplication(current.id, { priorApplicationId: old.id, reason: '本人确认第二批重新申请，与第一批记录关联' });
+  assert.equal(link.priorApplicationId, old.id);
+  assert.equal(app.getApplicationLinks(old.id)[0].applicationId, current.id);
+  assert.equal(app.getApplicationLinks(current.id)[0].reason, '本人确认第二批重新申请，与第一批记录关联');
+  assert.equal(app.getApplication(old.id).resumeVersion, '旧实际简历-v1');
+  assert.equal(app.getApplication(old.id).notes, '旧申请备注');
+  assert.equal(app.getApplication(old.id).events.at(-1).type, 'interview');
+  assert.equal(app.getApplication(current.id).resumeVersion, '新实际简历-v2');
+  assert.equal(app.getApplication(current.id).jobSnapshot.batch, '第二批');
+  assert.throws(() => app.linkApplication(current.id, { priorApplicationId: current.id, reason: '不能自身关联' }), /不同批次/);
+  const unrelated = app.createJob({ ...sample, recruitmentUnit: '另一院', batch: '第三批' });
+  assert.throws(() => app.linkApplication(app.setApplied(unrelated.id, true).id, { priorApplicationId: old.id, reason: '不同招聘主体不能强并' }), /主体.*部门/);
+  app.close();
+  app = createApplication(options);
+  assert.equal(app.getApplicationLinks(current.id)[0].priorApplicationId, old.id);
+  assert.equal(app.getApplication(old.id).events.at(-1).note, '旧批次面试事实');
+});
+
+test('资格采用有依据的有效纠正，实质变化后提示适用性且不以过时纠正遮蔽博士门槛', t => {
+  const app = createApplication(setup(t));
+  t.after(() => app.close());
+  const raw = { ...sample, originalText: sample.originalText.replace('硕士', '博士'), knownConditions: ['博士及以上'] };
+  const job = app.importJob(raw).job;
+  const initial = app.evaluateEligibility(job.id, { profile: { version: '模拟-硕士-v1', education: '硕士' } });
+  assert.equal(initial.status, 'ineligible');
+  app.correctJob(job.id, { field: 'knownConditions', value: ['硕士及以上'], basis: { reason: '本人取得正式补充公告，明确此岗位更正学历', sourceUrl: 'https://example.org/supplement', quote: '硕士及以上', locator: '补充公告第1段' } });
+  const revised = app.evaluateEligibility(job.id, { profile: { version: '模拟-硕士-v1', education: '硕士' } });
+  assert.equal(revised.status, 'verified');
+  assert.equal(revised.checks[0].evidence[0].locator, '补充公告第1段');
+  assert.match(revised.checks[0].evidence[0].documentId, /manual-correction/);
+  app.importJob({ ...raw, originalText: raw.originalText + '须持有CFA证书。', knownConditions: ['博士及以上', '须持有CFA证书'], observedAt: '2026-10-09T02:00:00Z' });
+  assert.equal(app.listJobCorrections(job.id)[0].needsReview, true);
+  assert.deepEqual(app.getJob(job.id).knownConditions, ['博士及以上', '须持有CFA证书']);
+  assert.equal(app.evaluateEligibility(job.id, { profile: { version: '模拟-硕士-v2', education: '硕士', certificates: ['CFA'] } }).status, 'ineligible');
+  app.correctJob(job.id, { field: 'knownConditions', value: ['硕士及以上', '须持有CFA证书'], basis: { reason: '本人核对变更后公告仍明确硕士可申请', quote: '硕士及以上，须持有CFA证书', locator: '新补充公告第2段' } });
+  assert.equal(app.listJobCorrections(job.id)[0].superseded, true);
+  assert.equal(app.listJobCorrections(job.id)[1].needsReview, false);
+  assert.equal(app.evaluateEligibility(job.id, { profile: { version: '模拟-硕士-v2', education: '硕士', certificates: ['CFA'] } }).status, 'verified');
+  assert.equal(app.listEligibility(job.id).at(-1).status, 'ineligible');
+});

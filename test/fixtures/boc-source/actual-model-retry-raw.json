@@ -1,0 +1,1696 @@
+{
+  "output": {
+    "commonConditions": [
+      {
+        "text": "（一）诚实守信，遵纪守法，有良好的道德品行和职业操守；",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "（一）诚实守信，遵纪守法，有良好的道德品行和职业操守；"
+          }
+        ]
+      },
+      {
+        "text": "（二）认同中国银行企业文化和价值观，具有强烈的事业心、责任感和使命感，勇于创新，敢于担当，真抓实干；",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "（二）认同中国银行企业文化和价值观，具有强烈的事业心、责任感和使命感，勇于创新，敢于担当，真抓实干；"
+          }
+        ]
+      },
+      {
+        "text": "（三）市场意识和客户意识强，具备较强的政策执行、统筹协调、综合管理和内外部沟通等能力，工作实绩突出；",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "（三）市场意识和客户意识强，具备较强的政策执行、统筹协调、综合管理和内外部沟通等能力，工作实绩突出；"
+          }
+        ]
+      },
+      {
+        "text": "（四）具备履职所需的专业素养和管理能力，熟悉我国相关政策法规和监管制度要求，了解国内外金融市场和相关领域发展情况；",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "（四）具备履职所需的专业素养和管理能力，熟悉我国相关政策法规和监管制度要求，了解国内外金融市场和相关领域发展情况；"
+          }
+        ]
+      },
+      {
+        "text": "（五）具有良好的心理素质和正常履职的身体条件；",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "（五）具有良好的心理素质和正常履职的身体条件；"
+          }
+        ]
+      },
+      {
+        "text": "（六）符合中国银行亲属回避的有关规定。",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "（六）符合中国银行亲属回避的有关规定。"
+          }
+        ]
+      },
+      {
+        "text": "（一）应聘者信息将被严格保密。",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "四、相关说明\n（一）应聘者信息将被严格保密。"
+          }
+        ]
+      },
+      {
+        "text": "（二）应聘者对个人填报信息的真实性、完整性负责。如与事实不符，中国银行有权取消录用资格。",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "（二）应聘者对个人填报信息的真实性、完整性负责。如与事实不符，中国银行有权取消录用资格。"
+          }
+        ]
+      },
+      {
+        "text": "（三）中国银行有权根据岗位需求变化及报名情况等因素，调整、取消或终止个别岗位的招聘工作，并对本次招聘享有最终解释权。",
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "（三）中国银行有权根据岗位需求变化及报名情况等因素，调整、取消或终止个别岗位的招聘工作，并对本次招聘享有最终解释权。"
+          }
+        ]
+      }
+    ],
+    "jobs": [
+      {
+        "title": "量化交易及风控岗",
+        "recruitmentUnit": "总行金融市场部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [
+          "北京"
+        ],
+        "duties": "1.协助推进业务量化转型工作 ，提升量化报价效率和能力 ，增强对\n市场机会的把握；\n2.负责量化交易、量化投资策略的研究、开发、制定与实施，有效\n实现业务目标；\n3.参与量化交易业务风控体系和平台建设 ，负责具体开展量化交易\n风险管控工作；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），计算机、应用数学等相关专\n业；\n2.一般应具有5年及以上量化交易、量化研究等领域工作经验。曾有\n国际大型银行或投行工作经历者优先 ；\n3.熟悉利率、汇率等金融产品，具有传统金融市场交易业务向量化\n转型的经验，以及深度参与量化交易系统与平台建设的经验 ；\n4.具有人工智能、机器学习等背景，熟练掌握C++、Python等编程语\n言；\n5.能够认同和融入国内商业银行体系与运作模式 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:1",
+                "quote": "1.国际知名院校博士学历 （学位），计算机、应用数学等相关专\n业；\n2.一般应具有5年及以上量化交易、量化研究等领域工作经验。曾有\n国际大型银行或投行工作经历者优先 ；\n3.熟悉利率、汇率等金融产品，具有传统金融市场交易业务向量化\n转型的经验，以及深度参与量化交易系统与平台建设的经验 ；\n4.具有人工智能、机器学习等背景，熟练掌握C++、Python等编程语\n言；\n5.能够认同和融入国内商业银行体系与运作模式 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "总行金融市场部 | \n量化交易及风控岗 | \n总行高级经理层级 | \n北京 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:1",
+            "quote": "1\n总行金融市场部\n量化交易及风控岗 1\n1.协助推进业务量化转型工作 ，提升量化报价效率和能力 ，增强对\n市场机会的把握；\n2.负责量化交易、量化投资策略的研究、开发、制定与实施，有效\n实现业务目标；\n3.参与量化交易业务风控体系和平台建设 ，负责具体开展量化交易\n风险管控工作；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "期权交易岗",
+        "recruitmentUnit": "总行金融市场部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责银行间期权做市业务 ，提升现有银行间做市业务的市场竞争\n力和影响力；\n2.负责期权模型开发与调试 ，提升交易台精细化定价能力 ，提升自\n动报价竞争力；\n3.负责持续优化期权持仓策略 ，形成有效的低流动性期权管理框\n架，提高持仓盈利空间；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历（学位）；\n2.一般应具有5年及以上在国际知名同业从事外汇及贵金属期权交易\n的工作经验；\n3.熟悉期权做市业务、曾具有期权模型开发工作经验者优先 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:1",
+                "quote": "1.国际知名院校博士学历（学位）；\n2.一般应具有5年及以上在国际知名同业从事外汇及贵金属期权交易\n的工作经验；\n3.熟悉期权做市业务、曾具有期权模型开发工作经验者优先 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "总行金融市场部 | \n量化交易及风控岗 | \n总行高级经理层级 | \n北京 | \n1 | \n\n\n期权交易岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:1",
+            "quote": "2 期权交易岗 1\n1.负责银行间期权做市业务 ，提升现有银行间做市业务的市场竞争\n力和影响力；\n2.负责期权模型开发与调试 ，提升交易台精细化定价能力 ，提升自\n动报价竞争力；\n3.负责持续优化期权持仓策略 ，形成有效的低流动性期权管理框\n架，提高持仓盈利空间；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "贵金属交易岗",
+        "recruitmentUnit": "总行金融市场部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.策略执行与获利： 利用自有资金进行黄金、白银、铂金、钯金等\n贵金属的现货、期货、期权及掉期交易，确保达成年度盈利目标；\n2.市场分析与研判： 深入研究全球宏观经济、货币政策、地缘政治\n及贵金属供需基本面，构建、优化交易策略并做好落地执行 ；\n3.风险管理：执行止损及头寸限制，在波动的市场环境中有效管理\n贵金属价格风险、利率风险、希腊字母风险、基差风险及流动性风\n险；\n4.业务开发：建立并维护与全球主要银行 、机构经纪商、实金精炼\n厂及矿山的业务联系 ，确保获取最优的市场报价与最新的市场资\n讯；\n5.跨团队协作： 与量化研究团队合作开发算法交易工具 ；\n6.定期输出交易复盘及策略报告 ，与团队共享市场洞察；\n7.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历（学位）；\n2.一般应具有5年及以上在知名投行、对冲基金或大型贸易商的自营\n交易经验；\n3.有可验证的长期稳定盈利记录 （需提供真实交易业绩 ，如Sharpe \nRatio、最大回撤、年化收益等关键指标）；\n4.熟悉主要交易市场（COMEX、LBMA、SGE等）及其交易机制， \n精通贵金属衍生品工具 （Options、Swaps、Forwards等），熟练使\n用主流交易工具 (Bloomberg/Refinitive)；\n5.具备跨资产交易经验（如贵金属 +外汇/利率联动），或具有熟练\n使用编程工具进行量化建模或程序化交易能力 ，或熟悉贵金属实物\n市场（如精炼、仓储、物流、跨市交割等）者优先。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:1",
+                "quote": "1.国际知名院校博士学历（学位）；\n2.一般应具有5年及以上在知名投行、对冲基金或大型贸易商的自营\n交易经验；\n3.有可验证的长期稳定盈利记录 （需提供真实交易业绩 ，如Sharpe \nRatio、最大回撤、年化收益等关键指标）；\n4.熟悉主要交易市场（COMEX、LBMA、SGE等）及其交易机制， \n精通贵金属衍生品工具 （Options、Swaps、Forwards等），熟练使\n用主流交易工具 (Bloomberg/Refinitive)；\n5.具备跨资产交易经验（如贵金属 +外汇/利率联动），或具有熟练\n使用编程工具进行量化建模或程序化交易能力 ，或熟悉贵金属实物\n市场（如精炼、仓储、物流、跨市交割等）者优先。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "总行金融市场部 | \n量化交易及风控岗 | \n总行高级经理层级 | \n北京 | \n1 | \n\n\n期权交易岗 | \n1 | \n\n\n贵金属交易岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:1",
+            "quote": "3 贵金属交易岗 1\n1.策略执行与获利： 利用自有资金进行黄金、白银、铂金、钯金等\n贵金属的现货、期货、期权及掉期交易，确保达成年度盈利目标；\n2.市场分析与研判： 深入研究全球宏观经济、货币政策、地缘政治\n及贵金属供需基本面，构建、优化交易策略并做好落地执行 ；\n3.风险管理：执行止损及头寸限制，在波动的市场环境中有效管理\n贵金属价格风险、利率风险、希腊字母风险、基差风险及流动性风\n险；\n4.业务开发：建立并维护与全球主要银行 、机构经纪商、实金精炼\n厂及矿山的业务联系 ，确保获取最优的市场报价与最新的市场资\n讯；\n5.跨团队协作： 与量化研究团队合作开发算法交易工具 ；\n6.定期输出交易复盘及策略报告 ，与团队共享市场洞察；\n7.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "全球托管岗",
+        "recruitmentUnit": "总行资产托管部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.参与制定全球托管能力建设规划 ，并组织实施；\n2.负责全球托管客户营销及服务工作 ，负责维护与全球托管行 、证\n券存管机构、中央清算系统、次托管行及其他主要相关方的关系 ，\n积极提升公司产品和服务影响力 ；\n3.负责境外次托管网络管理工作 ，完成新设网络的监管尽职调查 ，\n评估和识别网络覆盖市场的法律合规风险 、新产品或业务相关风险\n等；\n4.负责全球托管产品研发及系统建设工作 ；\n5.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），金融、经济、税务、法律等相\n关专业；\n2.一般应具有5年及以上托管等领域工作经验 ，熟悉全球托管行、次\n托管行和金融基础设施；\n3.曾在全球头部托管银行工作 ，熟悉全球托管银行运行机制及管理\n模式者优先；\n4.具备优秀的中英文表达能力和文字能力 ，能够熟练运用英文进行\n专业营销推广和客户服务。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:1",
+                "quote": "1.国际知名院校博士学历 （学位），金融、经济、税务、法律等相\n关专业；\n2.一般应具有5年及以上托管等领域工作经验 ，熟悉全球托管行、次\n托管行和金融基础设施；\n3.曾在全球头部托管银行工作 ，熟悉全球托管银行运行机制及管理\n模式者优先；\n4.具备优秀的中英文表达能力和文字能力 ，能够熟练运用英文进行\n专业营销推广和客户服务。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "attachment-1",
+            "locator": "page:1",
+            "quote": "4 总行资产托管部 全球托管岗 3\n1.参与制定全球托管能力建设规划 ，并组织实施；\n2.负责全球托管客户营销及服务工作 ，负责维护与全球托管行 、证\n券存管机构、中央清算系统、次托管行及其他主要相关方的关系 ，\n积极提升公司产品和服务影响力 ；\n3.负责境外次托管网络管理工作 ，完成新设网络的监管尽职调查 ，\n评估和识别网络覆盖市场的法律合规风险 、新产品或业务相关风险\n等；\n4.负责全球托管产品研发及系统建设工作 ；\n5.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "模型开发岗",
+        "recruitmentUnit": "总行风险管理部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.组织开发、维护和监控各类业务场景风控模型 ，及时捕捉对公客\n户（一般公司、普惠对公、金融机构、主权）及对私业务（住房按\n揭、消费贷款、普惠对私、信用卡业务等）风险信息，并利用线性\n回归、逻辑回归、机器学习等算法，产出风险排序、预警信号、额\n度建议或定价策略等；\n2.组织研究和探索智能风控领域的其他先进算法 、模型，负责以数\n据驱动为依据、技术结合业务的风险控制方法论的研究推进和落\n地；\n3.负责大数据风控模型的应用推广落地和治理体系建设等工作 ；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位）。具备计算机科学、金融工程、\n数学、统计学、人工智能等相关专业背景者优先 ；\n2.一般应具有5年及以上模型开发、模型验证相关工作经验。曾担任\n模型开发项目负责人、熟悉银行相关业务及产品者优先 ；\n3.善于分析和解决问题，有较强的语言表达、文字报告和分析判断\n能力；\n4.至少精通一门通用编程语言 （包括但不限于 Python、C++、R等）\n。掌握常见算法（如线性回归、决策树、XGB、随机森林）的原理\n与应用场景。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:1",
+                "quote": "1.国际知名院校博士学历 （学位）。具备计算机科学、金融工程、\n数学、统计学、人工智能等相关专业背景者优先 ；\n2.一般应具有5年及以上模型开发、模型验证相关工作经验。曾担任\n模型开发项目负责人、熟悉银行相关业务及产品者优先 ；\n3.善于分析和解决问题，有较强的语言表达、文字报告和分析判断\n能力；\n4.至少精通一门通用编程语言 （包括但不限于 Python、C++、R等）\n。掌握常见算法（如线性回归、决策树、XGB、随机森林）的原理\n与应用场景。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "attachment-1",
+            "locator": "page:1",
+            "quote": "5\n总行风险管理部\n模型开发岗 1\n1.组织开发、维护和监控各类业务场景风控模型 ，及时捕捉对公客\n户（一般公司、普惠对公、金融机构、主权）及对私业务（住房按\n揭、消费贷款、普惠对私、信用卡业务等）风险信息，并利用线性\n回归、逻辑回归、机器学习等算法，产出风险排序、预警信号、额\n度建议或定价策略等；\n2.组织研究和探索智能风控领域的其他先进算法 、模型，负责以数\n据驱动为依据、技术结合业务的风险控制方法论的研究推进和落\n地；\n3.负责大数据风控模型的应用推广落地和治理体系建设等工作 ；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "市场风险计量管理岗",
+        "recruitmentUnit": "总行风险管理部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.落实市场风险二道防线核心职责 ，牵头总行市场风险计量体系建\n设、优化与全流程管控，覆盖盯市估值、风险价值（VaR/ES）、压\n力测试、限额管理、监管资本计量等核心模块；\n2.负责市场风险计量模型的日常管理 、性能监控与问题整改，对标\n国际监管规则与国内监管要求 ，确保模型合规、精准、有效；\n3.牵头市场风险管理系统计量模块的自研 、落地、优化与迭代，推\n动市场风险计量能力数字化升级 ；\n4.负责市场风险计量相关的监管对接 、内外部审计应对，搭建符合\n巴塞尔协议、FRTB等国际标准的市场风险计量管控框架 ；\n5.引入海外先进市场风险管理实践经验 ，赋能团队专业能力提升 ，\n牵头重大风险计量项目攻坚与复杂风险事项处置 ；\n6.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），金融工程、金融数学、统计学\n、数量经济学等相关专业 。持有FRM、CFA等专业资格认证者优\n先；\n2.一般应具有5年及以上市场风险管理相关工作经验 ，精通市场风险\n二道防线计量管控逻辑。有巴塞尔协议市场风险资本计量 、FRTB规\n则落地、全球市场风险计量体系建设的牵头实操经验 ，或有中资海\n外机构任职，或熟悉中国在岸金融市场、监管规则者优先；\n3.精通全品类市场风险计量模型 ，覆盖利率、汇率、大宗商品、衍\n生品等资产的盯市估值 、VaR/ES、压力测试等核心模块 ；熟悉\nMSCI RM、Murex、Summit等主流市场风险管理系统 ，具备系统落\n地与优化的实操经验；\n4.深度掌握巴塞尔协议、国内监管市场风险相关监管规则 ，具备丰\n富的监管合规与审计应对经验 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:1",
+                "quote": "1.国际知名院校博士学历 （学位），金融工程、金融数学、统计学\n、数量经济学等相关专业 。持有FRM、CFA等专业资格认证者优\n先；\n2.一般应具有5年及以上市场风险管理相关工作经验 ，精通市场风险\n二道防线计量管控逻辑。有巴塞尔协议市场风险资本计量 、FRTB规\n则落地、全球市场风险计量体系建设的牵头实操经验 ，或有中资海\n外机构任职，或熟悉中国在岸金融市场、监管规则者优先；\n3.精通全品类市场风险计量模型 ，覆盖利率、汇率、大宗商品、衍\n生品等资产的盯市估值 、VaR/ES、压力测试等核心模块 ；熟悉\nMSCI RM、Murex、Summit等主流市场风险管理系统 ，具备系统落\n地与优化的实操经验；\n4.深度掌握巴塞尔协议、国内监管市场风险相关监管规则 ，具备丰\n富的监管合规与审计应对经验 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "总行风险管理部 | \n模型开发岗 | \n1 | \n\n\n市场风险计量管理岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:1",
+            "quote": "6 市场风险计量管理岗 1\n1.落实市场风险二道防线核心职责 ，牵头总行市场风险计量体系建\n设、优化与全流程管控，覆盖盯市估值、风险价值（VaR/ES）、压\n力测试、限额管理、监管资本计量等核心模块；\n2.负责市场风险计量模型的日常管理 、性能监控与问题整改，对标\n国际监管规则与国内监管要求 ，确保模型合规、精准、有效；\n3.牵头市场风险管理系统计量模块的自研 、落地、优化与迭代，推\n动市场风险计量能力数字化升级 ；\n4.负责市场风险计量相关的监管对接 、内外部审计应对，搭建符合\n巴塞尔协议、FRTB等国际标准的市场风险计量管控框架 ；\n5.引入海外先进市场风险管理实践经验 ，赋能团队专业能力提升 ，\n牵头重大风险计量项目攻坚与复杂风险事项处置 ；\n6.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "内控合规模型研发岗",
+        "recruitmentUnit": "总行内控与法律合规部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责建立和完善洗钱风险 、操作风险监测模型研发 、重检、调优\n、退出等全生命周期管理机制 ，优化关键数据要素管理机制 ；\n2.负责境内外机构洗钱风险 、操作风险监测模型的开发 、测试、验\n证、阈值调优等模型研发工作 ，开展模型重检和优化；\n3.负责识别归纳风险样态 、可疑特征和行为模式；优化关键数据要\n素质量，推动落实相关数据治理方案 ；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），计算机、经济、金融、数学等\n相关专业；\n2.一般应具有5年及以上国际大型银行总部 、国际知名咨询公司、国\n际知名互联网公司等类型机构相关领域工作经历 ，并有牵头负责模\n型体系建设运行、大型数据分析项目的经验 ；\n3.精通人工智能、大数据分析、自然语言处理、分布式计算框架等\n计算机技术，熟练掌握 Python、Javascript、C++、C#、PHP等编程\n语言，擅长数据分析挖掘。具有银行反洗钱、制裁合规、操作风险\n管理等领域项目经验者优先 ；\n4.能以英文为工作语言，掌握多种外语者优先。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:1",
+                "quote": "1.国际知名院校博士学历 （学位），计算机、经济、金融、数学等\n相关专业；\n2.一般应具有5年及以上国际大型银行总部 、国际知名咨询公司、国\n际知名互联网公司等类型机构相关领域工作经历 ，并有牵头负责模\n型体系建设运行、大型数据分析项目的经验 ；\n3.精通人工智能、大数据分析、自然语言处理、分布式计算框架等\n计算机技术，熟练掌握 Python、Javascript、C++、C#、PHP等编程\n语言，擅长数据分析挖掘。具有银行反洗钱、制裁合规、操作风险\n管理等领域项目经验者优先 ；\n4.能以英文为工作语言，掌握多种外语者优先。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "attachment-1",
+            "locator": "page:1",
+            "quote": "7\n总行内控与法律合规部\n内控合规模型研发岗 1\n1.负责建立和完善洗钱风险 、操作风险监测模型研发 、重检、调优\n、退出等全生命周期管理机制 ，优化关键数据要素管理机制 ；\n2.负责境内外机构洗钱风险 、操作风险监测模型的开发 、测试、验\n证、阈值调优等模型研发工作 ，开展模型重检和优化；\n3.负责识别归纳风险样态 、可疑特征和行为模式；优化关键数据要\n素质量，推动落实相关数据治理方案 ；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "跨境法务管理岗",
+        "recruitmentUnit": "总行内控与法律合规部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责处理集团重大诉讼仲裁案件 ，指导境内外机构应对重大诉讼\n仲裁案件；\n2.负责归集、分析、评估全行诉讼仲裁案件信息 ，开展典型案例研\n究，提出法律风险应对建议并组织落实 ；\n3.负责开展全辖外聘律师管理 ，提出管理机制优化建议并组织落\n实；\n4.研究分析主要国家民商事法律和银行业监管规则变化 ，提出管理\n建议并组织落实；\n5.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），法学等相关专业，已通过国家\n法律职业资格考试。具有海外法律职业资格或金融相关执业资格者\n优先；\n2.一般应具有5年及以上国际大型银行总部法律岗位或国际知名律所\n相关工作经历。有境外司法机关、金融监管工作经历者优先 ；\n3.精通欧美主要国家和地区的法律法规 、金融监管规则，并有成功\n处理重大跨境诉讼、参与重大立法、参与重大法律咨询项目的经\n验；\n4.能以英文为工作语言，掌握多种外语者优先。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:1",
+                "quote": "1.国际知名院校博士学历 （学位），法学等相关专业，已通过国家\n法律职业资格考试。具有海外法律职业资格或金融相关执业资格者\n优先；\n2.一般应具有5年及以上国际大型银行总部法律岗位或国际知名律所\n相关工作经历。有境外司法机关、金融监管工作经历者优先 ；\n3.精通欧美主要国家和地区的法律法规 、金融监管规则，并有成功\n处理重大跨境诉讼、参与重大立法、参与重大法律咨询项目的经\n验；\n4.能以英文为工作语言，掌握多种外语者优先。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "总行内控与法律合规部 | \n内控合规模型研发岗 | \n1 | \n\n\n跨境法务管理岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:1",
+            "quote": "8 跨境法务管理岗 1\n1.负责处理集团重大诉讼仲裁案件 ，指导境内外机构应对重大诉讼\n仲裁案件；\n2.负责归集、分析、评估全行诉讼仲裁案件信息 ，开展典型案例研\n究，提出法律风险应对建议并组织落实 ；\n3.负责开展全辖外聘律师管理 ，提出管理机制优化建议并组织落\n实；\n4.研究分析主要国家民商事法律和银行业监管规则变化 ，提出管理\n建议并组织落实；\n5.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "反洗钱合规管理岗",
+        "recruitmentUnit": "总行内控与法律合规部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责制定和完善集团反洗钱合规管理政策 、制度、流程和工作指\n引；\n2.研究境内外反洗钱合规法律法规和监管规则 ，提出管理建议并组\n织落实；\n3.负责客户尽职调查、名单维护及筛查等具体流程管理 ；\n4.组织开展反洗钱检查或调查 、反洗钱培训；\n5.提出反洗钱合规系统功能和模型需求 ，组织开展系统测试；\n6.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），法学、经济、金融、计算机、\n数学等相关专业；\n2.一般应具有5年及以上在国际大型银行总部 、国际知名咨询公司、\n国际知名律所、境外金融监管机构等类型机构从事反洗钱与制裁合\n规相关工作经历，并有牵头完成重大项目经验 。具有金融机构、咨\n询机构、监管机构从业经历者优先 ；\n3.精通FATF、沃尔夫斯堡等国际组织反洗钱与制裁合规标准和规\n则，精通欧美主要国家和地区反洗钱与制裁合规相关法律法规和监\n管要求，深入了解境外金融机构反洗钱与制裁合规管理实践 ，具有\n丰富的反洗钱尽职调查、名单管理、系统/模型建设经验；\n4.能以英文为工作语言，掌握多种外语者优先。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校博士学历 （学位），法学、经济、金融、计算机、\n数学等相关专业；\n2.一般应具有5年及以上在国际大型银行总部 、国际知名咨询公司、\n国际知名律所、境外金融监管机构等类型机构从事反洗钱与制裁合\n规相关工作经历，并有牵头完成重大项目经验 。具有金融机构、咨\n询机构、监管机构从业经历者优先 ；\n3.精通FATF、沃尔夫斯堡等国际组织反洗钱与制裁合规标准和规\n则，精通欧美主要国家和地区反洗钱与制裁合规相关法律法规和监\n管要求，深入了解境外金融机构反洗钱与制裁合规管理实践 ，具有\n丰富的反洗钱尽职调查、名单管理、系统/模型建设经验；\n4.能以英文为工作语言，掌握多种外语者优先。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "9 总行内控与法律合规部 反洗钱合规管理岗 1\n1.负责制定和完善集团反洗钱合规管理政策 、制度、流程和工作指\n引；\n2.研究境内外反洗钱合规法律法规和监管规则 ，提出管理建议并组\n织落实；\n3.负责客户尽职调查、名单维护及筛查等具体流程管理 ；\n4.组织开展反洗钱检查或调查 、反洗钱培训；\n5.提出反洗钱合规系统功能和模型需求 ，组织开展系统测试；\n6.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "技术标准研究及标准化管理岗",
+        "recruitmentUnit": "总行金融科技部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责跟踪研究 ISO等国际标准、我国国家标准及行业标准等工作 ；\n2.负责对接ISO、金标委等国内外标准组织 ，参与或组织相关标准制\n修订、标准转化等工作；\n3.负责ISO等国际标准和我国标准在行内落地实施方案的制定工作 ；\n4.负责我行标准化管理及技术标准管理工作 ；\n5.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），计算机、人工智能、通信工程\n等相关理工类专业。具有ISO内审员资格认证者优先；\n2.一般应具有5年及以上金融科技领域工作经验 。熟悉国际标准，具\n有参与ISO相关国际标准制修订、负责金融机构技术架构及技术标\n准体系管理等项目经验者优先 ；\n3.具备良好的中英文文档编写能力 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校博士学历 （学位），计算机、人工智能、通信工程\n等相关理工类专业。具有ISO内审员资格认证者优先；\n2.一般应具有5年及以上金融科技领域工作经验 。熟悉国际标准，具\n有参与ISO相关国际标准制修订、负责金融机构技术架构及技术标\n准体系管理等项目经验者优先 ；\n3.具备良好的中英文文档编写能力 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "总行金融科技部 | \n技术标准研究及标准化管理岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "10\n总行金融科技部\n技术标准研究及\n标准化管理岗 1\n1.负责跟踪研究 ISO等国际标准、我国国家标准及行业标准等工作 ；\n2.负责对接ISO、金标委等国内外标准组织 ，参与或组织相关标准制\n修订、标准转化等工作；\n3.负责ISO等国际标准和我国标准在行内落地实施方案的制定工作 ；\n4.负责我行标准化管理及技术标准管理工作 ；\n5.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "人工智能规划与研究岗",
+        "recruitmentUnit": "总行金融科技部",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责全行人工智能应用发展的设计与规划 ，制定技术标准、建设\n规范，推动规划落地；\n2.围绕算力、数据、模型，负责AI平台建设，优化架构设计，建设\n公共基础能力，组织平台运营；\n3.实现AI能力与核心业务场景的深度融合 ，牵头组织跨部门需求调\n研与方案设计，识别高价值应用方向并推动落地 ；\n4.建立AI模型全生命周期治理机制 ，包括模型准入、效果监控、风\n险预警与迭代优化等管理流程 ，确保AI应用的可控安全；\n5.跟踪人工智能前沿技术与行业最佳实践 ，组织内外部技术交流与\n培训，提升组织AI应用水平；\n6.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），计算机、人工智能、通信工程\n等相关理工类专业，精通人工智能技术体系与发展趋势 ，熟悉大模\n型、机器学习等主流技术方向。具备国际知名科技公司 AI研发部门\n、头部金融机构 AI中心或顶尖AI实验室核心研发经历者优先 ；\n2.一般应具有5年及以上金融科技领域工作经验 ，具有扎实的金融业\n务知识，深入理解银行业务流程与风险合规要求 ，能够将AI技术与\n金融场景有效结合，推动规模化应用落地；\n3.具备出色的战略规划与项目管理能力 ，能够主导跨部门协作，制\n定并推进AI技术路线图与实施计划；\n4.具备良好的中英文文档编写能力 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校博士学历 （学位），计算机、人工智能、通信工程\n等相关理工类专业，精通人工智能技术体系与发展趋势 ，熟悉大模\n型、机器学习等主流技术方向。具备国际知名科技公司 AI研发部门\n、头部金融机构 AI中心或顶尖AI实验室核心研发经历者优先 ；\n2.一般应具有5年及以上金融科技领域工作经验 ，具有扎实的金融业\n务知识，深入理解银行业务流程与风险合规要求 ，能够将AI技术与\n金融场景有效结合，推动规模化应用落地；\n3.具备出色的战略规划与项目管理能力 ，能够主导跨部门协作，制\n定并推进AI技术路线图与实施计划；\n4.具备良好的中英文文档编写能力 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "总行金融科技部 | \n技术标准研究及标准化管理岗 | \n1 | \n\n\n人工智能规划与研究岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "11 人工智能规划与研究岗 1\n1.负责全行人工智能应用发展的设计与规划 ，制定技术标准、建设\n规范，推动规划落地；\n2.围绕算力、数据、模型，负责AI平台建设，优化架构设计，建设\n公共基础能力，组织平台运营；\n3.实现AI能力与核心业务场景的深度融合 ，牵头组织跨部门需求调\n研与方案设计，识别高价值应用方向并推动落地 ；\n4.建立AI模型全生命周期治理机制 ，包括模型准入、效果监控、风\n险预警与迭代优化等管理流程 ，确保AI应用的可控安全；\n5.跟踪人工智能前沿技术与行业最佳实践 ，组织内外部技术交流与\n培训，提升组织AI应用水平；\n6.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "博士后",
+        "recruitmentUnit": "总行研究院",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "在中国银行博士后科研工作站全职从事政策分析 、行业研究、区域\n国别研究、银行业务发展等方面的博士后课题研究 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校应届博士研究生 （毕业时间为 2025年8月至2026年7\n月），经济、金融等相关专业；\n2.具备较强的研究能力，熟悉经济、金融等领域的专业知识、研究\n方法；\n3.具备较高的英语水平。曾在国际知名期刊发表英文专业论文者优\n先。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校应届博士研究生 （毕业时间为 2025年8月至2026年7\n月），经济、金融等相关专业；\n2.具备较强的研究能力，熟悉经济、金融等领域的专业知识、研究\n方法；\n3.具备较高的英语水平。曾在国际知名期刊发表英文专业论文者优\n先。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "12 总行研究院 博士后 2 在中国银行博士后科研工作站全职从事政策分析 、行业研究、区域\n国别研究、银行业务发展等方面的博士后课题研究 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department（未独立于招聘单位披露）",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "金融研究岗",
+        "recruitmentUnit": "上海市分行",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [
+          "上海"
+        ],
+        "duties": "1.负责全球宏观经济、国际金融等领域研究工作；\n2.负责上海国际金融中心发展研究工作 ；\n3.负责相关国际金融业务创新研究工作 ；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），经济、金融、管理或人工智能\n等相关专业。具有CFA、FRM等专业资格证书或具有高级职称者优\n先；\n2.一般应具有5年及以上国际知名金融机构或高校工作经验 。长期深\n耕国际经济发展规律、国际资本流动、国际经贸和国际金融规则 、\n金融科技等某一领域且有丰富研究产出者优先 ；\n3.具备良好的数据分析、形势分析、报告撰写能力，对从事经济金\n融研究具有浓厚兴趣。曾从事过经济金融研究工作者优先 ；\n4.能够熟练运用英语进行写作和报告 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校博士学历 （学位），经济、金融、管理或人工智能\n等相关专业。具有CFA、FRM等专业资格证书或具有高级职称者优\n先；\n2.一般应具有5年及以上国际知名金融机构或高校工作经验 。长期深\n耕国际经济发展规律、国际资本流动、国际经贸和国际金融规则 、\n金融科技等某一领域且有丰富研究产出者优先 ；\n3.具备良好的数据分析、形势分析、报告撰写能力，对从事经济金\n融研究具有浓厚兴趣。曾从事过经济金融研究工作者优先 ；\n4.能够熟练运用英语进行写作和报告 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "上海市分行 | \n金融研究岗 | \n相当于\n总行高级经理层级 | \n上海 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "13 上海市分行 金融研究岗 1\n1.负责全球宏观经济、国际金融等领域研究工作；\n2.负责上海国际金融中心发展研究工作 ；\n3.负责相关国际金融业务创新研究工作 ；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "跨境并购岗",
+        "recruitmentUnit": "深圳市分行",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [
+          "深圳"
+        ],
+        "duties": "1.负责跨境并购顾问及融资全流程相关工作 ，包括但不限于项目前\n期尽职调查、交易结构设计、融资方案制定与实施、资金筹措与投\n放、风险评估与控制等环节；\n2.负责国际银团业务相关工作 ，包括但不限于银团贷款的筹组 、谈\n判、协议签署及后续管理，协助客户拓展跨境融资渠道 ，推动国际\n银团业务稳健发展；\n3.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），金融、经济、法律、财会等相\n关专业优先。具有CPA、CFA、ACCA等专业资格证书者优先；\n2.一般应具有5年及以上跨境并购顾问及融资 、海外项目融资、国际\n银团筹组及分销等领域工作经验 。具备国际知名商业银行海外机构\n或投资银行团队工作经验并能独立完成项目全流程尽调 、发起及落\n地者优先；\n3.能够独立与国际律所、会计师事务所及商业银行银团等渠道进行\n对接；\n4.熟悉境内外法律合规政策 ，能够针对并购融资及国际银团服务推\n广进行可行性判断；\n5.能够熟练运用中英文进行沟通交流及产品推广 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校博士学历 （学位），金融、经济、法律、财会等相\n关专业优先。具有CPA、CFA、ACCA等专业资格证书者优先；\n2.一般应具有5年及以上跨境并购顾问及融资 、海外项目融资、国际\n银团筹组及分销等领域工作经验 。具备国际知名商业银行海外机构\n或投资银行团队工作经验并能独立完成项目全流程尽调 、发起及落\n地者优先；\n3.能够独立与国际律所、会计师事务所及商业银行银团等渠道进行\n对接；\n4.熟悉境内外法律合规政策 ，能够针对并购融资及国际银团服务推\n广进行可行性判断；\n5.能够熟练运用中英文进行沟通交流及产品推广 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "深圳市分行 | \n跨境并购岗 | \n深圳 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "14 深圳市分行 跨境并购岗 1\n1.负责跨境并购顾问及融资全流程相关工作 ，包括但不限于项目前\n期尽职调查、交易结构设计、融资方案制定与实施、资金筹措与投\n放、风险评估与控制等环节；\n2.负责国际银团业务相关工作 ，包括但不限于银团贷款的筹组 、谈\n判、协议签署及后续管理，协助客户拓展跨境融资渠道 ，推动国际\n银团业务稳健发展；\n3.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "高级策略规划岗",
+        "recruitmentUnit": "中银香港",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [
+          "香港"
+        ],
+        "duties": "1.负责研究分析人民币国际化相关政策 、市场情况、主要国家地区\n的法例和监管要求，并结合我行实际情况，提出业务发展建议；\n2.负责与各地相关监管机构保持沟通 ，掌握最新监管动态，并视情\n况进行跟进；\n3.牵头或参与重点人民币项目的策划及推广 ；\n4.负责代表行方参加各项业务营销推广活动 ；\n5.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），经济、金融、财务、工商管理\n等相关专业；\n2.一般应具有5年及以上银行或金融机构工作经验 。曾具有境内监管\n机构及相关机构工作经验者优先 ；\n3.曾在核心期刊发表研究报告者优先 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校博士学历 （学位），经济、金融、财务、工商管理\n等相关专业；\n2.一般应具有5年及以上银行或金融机构工作经验 。曾具有境内监管\n机构及相关机构工作经验者优先 ；\n3.曾在核心期刊发表研究报告者优先 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "中银香港 | \n高级策略规划岗 | \n香港 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "15\n中银香港\n高级策略规划岗 1\n1.负责研究分析人民币国际化相关政策 、市场情况、主要国家地区\n的法例和监管要求，并结合我行实际情况，提出业务发展建议；\n2.负责与各地相关监管机构保持沟通 ，掌握最新监管动态，并视情\n况进行跟进；\n3.牵头或参与重点人民币项目的策划及推广 ；\n4.负责代表行方参加各项业务营销推广活动 ；\n5.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "贵金属交易岗",
+        "recruitmentUnit": "中银香港",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责贵金属新产品交易、风险管理、代客业务拓展；\n2.负责参与贵金属跨市策略执行 、国际板做市，扩大银行间询价远\n掉期业务量，拓展银行间期权报价业务；\n3.协助拓展香港本地及东南亚地区贵金属业务发展 ；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），经济、金融、数学、计算机等\n相关专业；\n2.一般应具有5年及以上境内外贵金属市场交易经验 ，了解监管、同\n业及客户动态，具备贵金属产品设计及管理能力 ；\n3.具有较强的市场分析能力 ，能够使用中英文开展日常工作 ；\n4.具备编程能力者优先。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校博士学历 （学位），经济、金融、数学、计算机等\n相关专业；\n2.一般应具有5年及以上境内外贵金属市场交易经验 ，了解监管、同\n业及客户动态，具备贵金属产品设计及管理能力 ；\n3.具有较强的市场分析能力 ，能够使用中英文开展日常工作 ；\n4.具备编程能力者优先。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "中银香港 | \n高级策略规划岗 | \n香港 | \n1 | \n\n\n贵金属交易岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "16 贵金属交易岗 1\n1.负责贵金属新产品交易、风险管理、代客业务拓展；\n2.负责参与贵金属跨市策略执行 、国际板做市，扩大银行间询价远\n掉期业务量，拓展银行间期权报价业务；\n3.协助拓展香港本地及东南亚地区贵金属业务发展 ；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "量化交易分析岗",
+        "recruitmentUnit": "中银香港",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责在研究和统计分析基础上 ，开发并持续改进交易策略 ；\n2.负责回测及实施交易模型 ，并在全天候实时交易环境中管理风\n险；\n3.负责进行Alpha研究，制定交易策略，编写算法；与交易和IT团队\n合作，将交易策略及算法整合到公司现有基础设施中 ；\n4.负责维护策略和算法，改进定价模型，并调整交易参数；\n5.识别技术难题，改进回测和自动化交易平台 ，并实施新的量化分\n析工具；\n6.完善内部数据库、可视化风险管理系统和回测平台 ；\n7.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），经济、金融、数学、计算机等\n相关专业；\n2.一般应具有5年及以上境内外量化交易经验 ，熟悉量化投资策略的\n构建与优化，具备对金融衍生品、固定收益产品及权益类资产的量\n化分析和交易执行能力，具备较强的风险识别与控制意识 ，熟悉相\n关交易系统和市场规则；\n3.能够独立完成模型开发、回测验证及实盘操作，具备Python、C++ \n、Java、KDB等开发经验者优先。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:2",
+                "quote": "1.国际知名院校博士学历 （学位），经济、金融、数学、计算机等\n相关专业；\n2.一般应具有5年及以上境内外量化交易经验 ，熟悉量化投资策略的\n构建与优化，具备对金融衍生品、固定收益产品及权益类资产的量\n化分析和交易执行能力，具备较强的风险识别与控制意识 ，熟悉相\n关交易系统和市场规则；\n3.能够独立完成模型开发、回测验证及实盘操作，具备Python、C++ \n、Java、KDB等开发经验者优先。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "中银香港 | \n高级策略规划岗 | \n香港 | \n1 | \n\n\n贵金属交易岗 | \n1 | \n\n\n量化交易分析岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:2",
+            "quote": "17 量化交易分析岗 1\n1.负责在研究和统计分析基础上 ，开发并持续改进交易策略 ；\n2.负责回测及实施交易模型 ，并在全天候实时交易环境中管理风\n险；\n3.负责进行Alpha研究，制定交易策略，编写算法；与交易和IT团队\n合作，将交易策略及算法整合到公司现有基础设施中 ；\n4.负责维护策略和算法，改进定价模型，并调整交易参数；\n5.识别技术难题，改进回测和自动化交易平台 ，并实施新的量化分\n析工具；\n6.完善内部数据库、可视化风险管理系统和回测平台 ；\n7.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "投资交易/投行业务岗",
+        "recruitmentUnit": "香港分行",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责债券投资、融资、外汇交易、债券承分销等金融市场业务相\n关工作，包括但不限于在授权范围内进行债券投资组合管理 ，制定\n交易策略并执行日常交易，开展境外债券承销业务；\n2.密切关注并深入研究宏观经济走势 、货币政策变化，负责分析、\n跟踪、研究市场动态，提供市场研判和投资决策信息 ，准备市场及\n管理分析报告；\n3.在业务中落实风险管理要求 ，并有效控制业务风险；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），经济、金融、财务会计、计算\n机科学、数学、统计、工程等相关专业。具有CFA等专业资格证书\n者优先；\n2.一般应具有5年及以上金融市场等领域工作经验 ；\n3.能够熟练使用金融数据分析工具 ，具备较强的数据分析能力 。具\n备一定编程能力者优先；\n4.熟悉宏观分析范式，了解金融市场尤其是固收市场相关业务 ；\n5.中英文流利，具有较强的英语听说读写能力 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:3",
+                "quote": "1.国际知名院校博士学历 （学位），经济、金融、财务会计、计算\n机科学、数学、统计、工程等相关专业。具有CFA等专业资格证书\n者优先；\n2.一般应具有5年及以上金融市场等领域工作经验 ；\n3.能够熟练使用金融数据分析工具 ，具备较强的数据分析能力 。具\n备一定编程能力者优先；\n4.熟悉宏观分析范式，了解金融市场尤其是固收市场相关业务 ；\n5.中英文流利，具有较强的英语听说读写能力 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "attachment-1",
+            "locator": "page:3",
+            "quote": "18 香港分行 投资交易/投行业务岗 1\n1.负责债券投资、融资、外汇交易、债券承分销等金融市场业务相\n关工作，包括但不限于在授权范围内进行债券投资组合管理 ，制定\n交易策略并执行日常交易，开展境外债券承销业务；\n2.密切关注并深入研究宏观经济走势 、货币政策变化，负责分析、\n跟踪、研究市场动态，提供市场研判和投资决策信息 ，准备市场及\n管理分析报告；\n3.在业务中落实风险管理要求 ，并有效控制业务风险；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "研究分析岗",
+        "recruitmentUnit": "中银国际",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责宏观策略或科技行业的研究工作 ；\n2.负责与机构销售团队合作拓展 ，提升客户佣金；\n3.负责承接中国银行总行及相关部门研究课题需求 ，为集团提供智\n库研究服务；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），金融、科技等相关专业。具有\nCFA、CPA等专业资格证书者优先；\n2.一般应具有5年及以上金融领域工作经验 ；\n3.具备一定的客户基础及市场影响力 ；\n4.具备优秀的中英文沟通能力 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:3",
+                "quote": "1.国际知名院校博士学历 （学位），金融、科技等相关专业。具有\nCFA、CPA等专业资格证书者优先；\n2.一般应具有5年及以上金融领域工作经验 ；\n3.具备一定的客户基础及市场影响力 ；\n4.具备优秀的中英文沟通能力 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "attachment-1",
+            "locator": "page:3",
+            "quote": "19 中银国际 研究分析岗 1\n1.负责宏观策略或科技行业的研究工作 ；\n2.负责与机构销售团队合作拓展 ，提升客户佣金；\n3.负责承接中国银行总行及相关部门研究课题需求 ，为集团提供智\n库研究服务；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "资产管理投资经理岗\n（QDII方向）",
+        "recruitmentUnit": "中银证券",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [
+          "上海"
+        ],
+        "duties": "1.负责在QDII框架下开展海外市场资产配置工作 ，包括根据宏观经\n济形势、市场周期和风险偏好，制定并实施科学合理的境外投资组\n合策略；\n2.承担权益类投资策略的研究与开发 ，跟踪国际资本市场动态 ，挖\n掘优质投资标的，优化投资逻辑与模型；\n3.负责相关投资产品的设计 、申报、运作及后续管理，确保产品合\n规运作、稳健发展，提升跨境投资业务的专业化水平与市场竞争\n力；\n4.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），计算机、金融工程、数学、物\n理等相关专业。具有CQF、CFA、FRM等专业资格证书者优先；\n2.一般应具有5年及以上权益投资、ETF投资研发等领域工作经验 ，\n在海外持牌资管机构、对冲基金、国际投行、共同基金有独立组合\n管理经验；\n3.具备量化工具运用、模型搭建、ETF指数研发与策略开发能力 ；\n4.取得证券从业及基金从业资格证书 。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:3",
+                "quote": "1.国际知名院校博士学历 （学位），计算机、金融工程、数学、物\n理等相关专业。具有CQF、CFA、FRM等专业资格证书者优先；\n2.一般应具有5年及以上权益投资、ETF投资研发等领域工作经验 ，\n在海外持牌资管机构、对冲基金、国际投行、共同基金有独立组合\n管理经验；\n3.具备量化工具运用、模型搭建、ETF指数研发与策略开发能力 ；\n4.取得证券从业及基金从业资格证书 。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "中银证券 | \n资产管理投资经理岗\n（QDII方向） | \n上海 | \n2 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:3",
+            "quote": "20\n中银证券\n资产管理投资经理岗\n（QDII方向） 2\n1.负责在QDII框架下开展海外市场资产配置工作 ，包括根据宏观经\n济形势、市场周期和风险偏好，制定并实施科学合理的境外投资组\n合策略；\n2.承担权益类投资策略的研究与开发 ，跟踪国际资本市场动态 ，挖\n掘优质投资标的，优化投资逻辑与模型；\n3.负责相关投资产品的设计 、申报、运作及后续管理，确保产品合\n规运作、稳健发展，提升跨境投资业务的专业化水平与市场竞争\n力；\n4.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "全球资产配置研究岗",
+        "recruitmentUnit": "中银证券",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责全球宏观经济、各大类资产市场的研究分析 ，搭建全球资产\n配置研究框架与模型；\n2.负责跟踪全球主要经济体政策走向 、市场趋势，发布资产配置研\n究报告与投资策略建议；\n3.负责为机构客户提供全球资产配置专业研究支持 ，对接业务部门\n的研究需求；\n4.负责与海外知名金融研究机构开展交流合作 ，同步前沿研究成果\n与方法；\n5.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），金融工程、数量经济、资产配\n置、金融分析等相关专业。具有CFA、CAIA、FRM等专业资格证书\n者优先；\n2.一般应具有5年及以上相关工作经验。有全球资产配置、宏观研究\n、量化分析等领域工作经验者优先 ；\n3.具备扎实的量化研究能力 、模型搭建能力和数据分析能力 ，熟练\n运用各类研究分析工具；\n4.精通全球各类资产市场运行逻辑 ，具备独立的研究判断能力和成\n果输出能力，能以英文为工作语言；\n5.取得证券从业资格证书。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:3",
+                "quote": "1.国际知名院校博士学历 （学位），金融工程、数量经济、资产配\n置、金融分析等相关专业。具有CFA、CAIA、FRM等专业资格证书\n者优先；\n2.一般应具有5年及以上相关工作经验。有全球资产配置、宏观研究\n、量化分析等领域工作经验者优先 ；\n3.具备扎实的量化研究能力 、模型搭建能力和数据分析能力 ，熟练\n运用各类研究分析工具；\n4.精通全球各类资产市场运行逻辑 ，具备独立的研究判断能力和成\n果输出能力，能以英文为工作语言；\n5.取得证券从业资格证书。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "中银证券 | \n资产管理投资经理岗\n（QDII方向） | \n上海 | \n2 | \n\n\n全球资产配置研究岗 | \n1 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:3",
+            "quote": "21 全球资产配置研究岗 1\n1.负责全球宏观经济、各大类资产市场的研究分析 ，搭建全球资产\n配置研究框架与模型；\n2.负责跟踪全球主要经济体政策走向 、市场趋势，发布资产配置研\n究报告与投资策略建议；\n3.负责为机构客户提供全球资产配置专业研究支持 ，对接业务部门\n的研究需求；\n4.负责与海外知名金融研究机构开展交流合作 ，同步前沿研究成果\n与方法；\n5.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "自营投资经理岗\n（股票、债券方向）",
+        "recruitmentUnit": "中银证券",
+        "contractingEntity": null,
+        "department": null,
+        "batch": null,
+        "locations": [],
+        "duties": "1.负责搭建海外股票、债券投资业务框架，制定相关投资决策流程\n和风险控制体系；\n2.负责自营海外股票、债券账户的投资管理工作 ，负责所管理股票\n、债券自营组合的构建、调整和日常风险控制；\n3.对证券市场进行跟踪分析 ，制定海外股票、债券长期和阶段性投\n资策略；\n4.紧盯国际局势，进行海内外宏观经济、股票及个券研究分析；\n5.负责撰写组合分析报告，并定期向上汇报；\n6.完成交办的其他工作任务 。",
+        "conditions": [
+          {
+            "text": "1.国际知名院校博士学历 （学位），金融、经济、投资、数学等相\n关专业。具有CFA、FRM、ACCA等专业资格证书者优先；\n2.一般应具有5年及以上海外股票、债券投资经验。具有良好投资业\n绩者优先；\n3.具备良好数据分析能力和文字表达能力 ；\n4.取得证券从业资格证书。",
+            "evidence": [
+              {
+                "documentId": "attachment-1",
+                "locator": "page:3",
+                "quote": "1.国际知名院校博士学历 （学位），金融、经济、投资、数学等相\n关专业。具有CFA、FRM、ACCA等专业资格证书者优先；\n2.一般应具有5年及以上海外股票、债券投资经验。具有良好投资业\n绩者优先；\n3.具备良好数据分析能力和文字表达能力 ；\n4.取得证券从业资格证书。"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "documentId": "announcement",
+            "locator": "正文",
+            "quote": "中银证券 | \n资产管理投资经理岗\n（QDII方向） | \n上海 | \n2 | \n\n\n全球资产配置研究岗 | \n1 | \n\n\n自营投资经理岗\n（股票、债券方向） | \n2 |"
+          },
+          {
+            "documentId": "attachment-1",
+            "locator": "page:3",
+            "quote": "22 自营投资经理岗\n（股票、债券方向） 2\n1.负责搭建海外股票、债券投资业务框架，制定相关投资决策流程\n和风险控制体系；\n2.负责自营海外股票、债券账户的投资管理工作 ，负责所管理股票\n、债券自营组合的构建、调整和日常风险控制；\n3.对证券市场进行跟踪分析 ，制定海外股票、债券长期和阶段性投\n资策略；\n4.紧盯国际局势，进行海内外宏观经济、股票及个券研究分析；\n5.负责撰写组合分析报告，并定期向上汇报；\n6.完成交办的其他工作任务 。"
+          }
+        ],
+        "applicationPath": {
+          "kind": "steps",
+          "url": "http://chrcmp.chinahr.com/pages/boc-social",
+          "email": null,
+          "steps": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。",
+          "loginRequired": false
+        },
+        "unknownFields": [
+          "contractingEntity",
+          "department",
+          "batch",
+          "locations（本岗位行未单独列明，合并单元格范围未保留）",
+          "loginRequired（未披露是否需要账号登录）"
+        ],
+        "dateEvidence": [
+          {
+            "field": "announcementDate",
+            "raw": "2026年5月11日",
+            "meaning": "unverified",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "中国银行股份有限公司\n2026年5月11日"
+              }
+            ]
+          },
+          {
+            "field": "applicationDeadline",
+            "raw": "北京时间2026年5月25日24时",
+            "meaning": "explicit_deadline",
+            "evidence": [
+              {
+                "documentId": "announcement",
+                "locator": "正文",
+                "quote": "有意向报名人员请登录我行社会招聘网站http://chrcmp.chinahr.com/pages/boc-social，于北京时间2026年5月25日24时前填写并提交简历。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "inputGaps": [
+      "公告岗位表的输入文本未保留工作地点合并单元格的明确范围。仅抽取在本岗位行直接出现的工作地点，其余岗位未按相邻行或招聘单位名称补填。",
+      "公告落款为中国银行股份有限公司，但未逐岗位披露实际签约主体，不能将落款主体直接作为所有招聘单位的contractingEntity。",
+      "未独立披露岗位所属部门及批次；总行部门名称已按原文保留在recruitmentUnit。",
+      "应聘方式中的“登录我行社会招聘网站”未明确是否需要账号登录，loginRequired无法由输入证实。",
+      "2026年5月11日为公告落款日期，输入未明确标注其为发布日期，按unverified保留。"
+    ]
+  },
+  "receipt": {
+    "model": "gpt-6.1-sol",
+    "processingVersion": "announcement-extract-v1",
+    "durationMs": 597828,
+    "exitCode": 0,
+    "completed": true,
+    "usage": {
+      "input_tokens": 28730,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 27265,
+      "reasoning_output_tokens": 1802
+    },
+    "warning": true
+  }
+}

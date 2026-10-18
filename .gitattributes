@@ -1,0 +1,9 @@
+# Preserve the official verbatim HTML evidence; keep all other whitespace checks.
+test/fixtures/beijing-sasac/historical-chemical.html whitespace=-blank-at-eol
+
+.scratch export-ignore
+.data export-ignore
+.runtime export-ignore
+.worktrees export-ignore
+AGENTS.md export-ignore
+docs/agents export-ignore

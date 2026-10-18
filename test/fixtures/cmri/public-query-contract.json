@@ -1,0 +1,5 @@
+{
+  "verification": "public-script extracts only, mocked responses are simulated; actual 2026-10-08 files retained ignored",
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhbieIVi00W3W1i9hYVs1EY6iYLF936QV71fmFNtsATK3m7iEbgDNo222M2uRJ1fVFyt00OkwyJ/EzvLL7M2iWK7d3fs8OAwsJd0/tBGhFvJU9YUzGibvko3KfOiUr+CMLwrGY4cXyPUs/DHiwqVb+/JhvffKTzzpZxnmOZDY5G7q6FfLFmGueQI7h9NyqyTst1jrfJRq2QG2uDDuMNlYEjWNSHI7fg9F91xLhyNNKIO1a3dcpLi8HZEtm4mgs1+i2xH49EzVjLyFjep91nqNUrauXVr22DMGfuggeAzuRxlqo1bVNg9pC1EtcTg4GkWURf4FWngXo4ntHpGcd+hecwIDAQAB",
+  "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+}

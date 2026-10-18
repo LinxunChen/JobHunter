@@ -1,0 +1,26 @@
+[
+  {
+    "id": "190767079",
+    "url": "https://chinaamc.zhiye.com/szzwxq?jobId=190767079",
+    "readAt": "2026-10-13T14:35:31.008Z",
+    "rawSha256": "bda8edcce1ce0eb131815cdf3c64fa99953307786b11271963d4372088bc322c",
+    "fixtureSha256": "a35ac1fcb7c484fba94cac13f0e36d61ed49a5c85a293476acf60038c3109d09",
+    "note": "保留公开网页标题、完整岗位正文和页脚招聘声明；省略脚本、导航、图片和其他平台模板"
+  },
+  {
+    "id": "190819373",
+    "url": "https://chinaamc.zhiye.com/szzwxq?jobId=190819373",
+    "readAt": "2026-10-13T14:35:31.437Z",
+    "rawSha256": "0e18dee8f2ea355824d22060186ac235d3dca855c3eee73b299822cb545637aa",
+    "fixtureSha256": "d63e44d24b8f3de9d70678cb4695eb93614c12e904ba9e91e9d5dbc34ffb518b",
+    "note": "保留公开网页标题、完整岗位正文和页脚招聘声明；省略脚本、导航、图片和其他平台模板"
+  },
+  {
+    "id": "190831259",
+    "url": "https://chinaamc.zhiye.com/szzwxq?jobId=190831259",
+    "readAt": "2026-10-13T14:35:31.622Z",
+    "rawSha256": "80c645e29119043d606b3a9a96a532966563469b7d049c26fc7135bef3d7063c",
+    "fixtureSha256": "860ae9a84d1e2a749f5f7ef66eb49f10abe3e5d904cde8354d091b6023cfd12d",
+    "note": "保留公开网页标题、完整岗位正文和页脚招聘声明；省略脚本、导航、图片和其他平台模板"
+  }
+]

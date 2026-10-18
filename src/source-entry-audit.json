@@ -1,0 +1,282 @@
+{
+  "seed-03": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://career.abchina.com.cn/build/index.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "农业银行公开社招分类100已核验，完整查询0条；分类20为简历填写页，已修正。当前无社招详情样本。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-05": {
+    "checkedAt": "2026-10-11T16:37:27.277Z",
+    "entryUrl": "https://www.psbc.com/cn/gyyc/rczp/shzp/index.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "邮储社招栏目当前0条，模板和全部分页已真实核验；尚无真实详情样本。",
+    "action": "自动监控此入口的新内容；仅范围匹配且确认当前开放、材料足够才加工。"
+  },
+  "seed-06": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://job.citicbank.com/CustStyle/zpmhys/clubRecruit.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "完整社招752条，核验银行主体620条，实际详情已取得。SH_UP是学历及以上标志，不再误当社招状态；公开详情未说明当前可投/截止，不调用模型。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-07": {
+    "checkedAt": "2026-10-11T16:37:27.278Z",
+    "entryUrl": "https://eoap.cebbank.com/uiap/wt/CEB/zpzh/social",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "官方新社招平台完整列表10条；银行本体6条详情完整，均为深圳且报名已截止；网页展示期不作为报名期限。",
+    "action": "自动监控此入口的新内容；仅范围匹配且确认当前开放、材料足够才加工。"
+  },
+  "seed-08": {
+    "checkedAt": "2026-10-11T16:37:27.278Z",
+    "entryUrl": "https://career.cmbchina.com/",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "官方社招完整列表136条，银行主体131条；总部标签与详情单位前缀差异已修复，详情完整读取。北京列示为业务岗，未发现已确认的北京技术机会。",
+    "action": "自动监控此入口的新内容；仅范围匹配且确认当前开放、材料足够才加工。"
+  },
+  "seed-09": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://job.cib.com.cn/portal/",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "匿名公开查询上下文与签名适配后正常，完整社招1172条，银行范围1081条；真实职责和资格详情已取得。原500属于项目请求适配问题。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-11": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://job.bankcomm.com/",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "正常证书校验读取公开社招10条，银行主体5条，实际详情完整。旧TLS运行时兼容和公开请求格式已修复。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-13": {
+    "checkedAt": "2026-10-13T03:29:50.592Z",
+    "entryUrl": "https://webapp.zhaopin.com/2026/bj/zgyhb0422ZL85165/job/index.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "独立智联社招专题及认证企业账号核验通过，完整17条列表、7条北京技术相关详情可自动读取。子公司按岗位原文与分类识别，不用母公司账号覆盖。投递页触发访问验证，当前报名开放尚未确认；不等于7个可投岗位。",
+    "action": "已自动监测；请打开具体技术岗位投递页，完成访问验证后确认是否仍可申请。未确认前零模型加工，已读详情只在内容变化时重查。"
+  },
+  "seed-15": {
+    "checkedAt": "2026-10-11T16:37:27.278Z",
+    "entryUrl": "https://m.chinaclear.cn/zdjs/zgzh/about_xxpl.shtml",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "新版官方工作机会栏目当前窗口1篇；混合公告完整正文含社招，简历截止2025-11-28，已跳过；未称覆盖全部历史分页。",
+    "action": "自动监控此入口的新内容；仅范围匹配且确认当前开放、材料足够才加工。"
+  },
+  "seed-17": {
+    "checkedAt": "2026-10-13T01:44:15.324251+00:00",
+    "entryUrl": "https://www.bse.cn/company/recruit.html",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "原招聘入口重新请求返回403访问限制。",
+    "action": "本人在官方入口打开招聘栏目，若有验证码请本人完成；提供当前社招详情链接或完整原文。",
+    "verification": {
+      "httpResult": "403 https://www.bse.cn/company/recruit.html",
+      "exitCode": 0
+    }
+  },
+  "seed-18": {
+    "checkedAt": "2026-10-13T01:44:15.309503+00:00",
+    "entryUrl": "https://zhaopin.neeq.com.cn/",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "原官网栏目及独立官方招聘门户均返回403；未取得当前社招完整正文。",
+    "action": "本人在官方入口打开招聘栏目，若有验证码请本人完成；提供当前社招详情链接或完整原文。",
+    "verification": {
+      "httpResult": "403 https://www.neeq.com.cn/company/recruit.html",
+      "exitCode": 0
+    }
+  },
+  "seed-21": {
+    "checkedAt": "2026-10-13T01:44:15.289004+00:00",
+    "entryUrl": "https://www.sinosure.com.cn/rczp/",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "本轮官网空响应；官网旧招聘门户sinosure.zhiye.com实际跳转/404，HTTP200的404页不能视为正常社招入口。",
+    "action": "官网招聘门户链接需要更新；如本人可找到当前社招入口，提供该链接。",
+    "verification": {
+      "httpResult": "000 https://www.sinosure.com.cn/rczp/",
+      "exitCode": 52
+    }
+  },
+  "seed-24": {
+    "checkedAt": "2026-10-13T01:44:15.658431+00:00",
+    "entryUrl": "https://www.chinaunicom.com.cn/46/menu01/529/column06",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "原528为校园招聘，实际529社招公告属于联通数据智能有限公司，不是联通研究院；不能改名冒充目标机构接入。",
+    "action": "需要联通研究院自己的当前社会招聘入口或官方岗位原文；旧2023线索不反复加工。",
+    "verification": {
+      "httpResult": "000 https://www.chinaunicom.com.cn/46/menu01/529/column06",
+      "exitCode": 35
+    }
+  },
+  "seed-25": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://campus.51job.com/ct2026/",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "接入官方2026海外社招专场完整52条，研究院独立主体7条，真实完整职责和资格已取得；不代表普通社招全覆盖，当前开放未知，不加工。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-26": {
+    "checkedAt": "2026-10-13T01:44:15.709490+00:00",
+    "entryUrl": "https://www.cdb.com.cn/xwzx/xxgg/zpgg/",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "官方栏目首次可读，仅1条2026校招；正式复查和两次独立读取均返回412。未通过稳定接入验证，不计已接入。",
+    "action": "本人在官方招聘入口核对能否打开当前公告；若有验证码请本人完成，提供公开详情链接或完整原文。",
+    "verification": {
+      "httpResult": "200 https://www.cdb.com.cn/xwzx/xxgg/zpgg/",
+      "exitCode": 0
+    }
+  },
+  "seed-29": {
+    "checkedAt": "2026-10-13T01:44:15.508965+00:00",
+    "entryUrl": "https://zhaopin.sgcc.com.cn/",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "官方招聘入口返回HTTP412访问校验。",
+    "action": "本人打开官方招聘入口，选择社会招聘；若有验证码请本人完成，提供仍在招的北京技术岗位原文。",
+    "verification": {
+      "httpResult": "412 https://zhaopin.sgcc.com.cn/",
+      "exitCode": 0
+    }
+  },
+  "seed-31": {
+    "checkedAt": "2026-10-13T01:44:15.609567+00:00",
+    "entryUrl": "https://zhaopin.cnpc.com.cn/",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "官方招聘入口返回HTTP412访问校验。",
+    "action": "本人打开官方招聘入口，选择社会招聘；若有验证码请本人完成，提供仍在招的北京技术岗位原文。",
+    "verification": {
+      "httpResult": "412 https://zhaopin.cnpc.com.cn/",
+      "exitCode": 0
+    }
+  },
+  "seed-32": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://job.sinopec.com/",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "未结束社招查询endTag=N完整0条；258条历史不作为当前机会，当前无可验证详情样本。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-33": {
+    "checkedAt": "2026-10-13T01:44:15.768856+00:00",
+    "entryUrl": "https://www.cnooc.com.cn/zyzx/rczp/",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "普通请求仍重定向循环；隔离浏览器已读到新版官方人才招聘栏目，仅列应届毕业生入口，未列社会招聘。",
+    "action": "若找到中国海油新的官方社会招聘入口或仍在招的北京技术岗位，请提供具体链接和完整正文；现有校招不加工。",
+    "verification": {
+      "httpResult": "302 https://www.cnooc.com.cn/fzlm/xgnr/202405/t20240524_25707.html",
+      "exitCode": 47
+    }
+  },
+  "seed-34": {
+    "checkedAt": "2026-10-12T15:41:52.519Z",
+    "entryUrl": "https://www.travelsky.cn/travelsky/rlzy/rczp/shzp/A069009003002Gone1.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "已接入官方社招单页岗位矩阵，正式本机本次读取23条列示。表格缺职责、资格及当前开放依据；已筛选的缺材料线索仅内容变化再查，不调用模型，旧2017外链不作为可申请证据。",
+    "action": "提供新的官方社招入口或完整北京技术岗位说明及当前仍接受申请的依据。自动监测岗位表已可用；缺材料岗位不会进入推荐。"
+  },
+  "seed-35": {
+    "checkedAt": "2026-10-11T16:37:27.278Z",
+    "entryUrl": "https://careers.citics.com/",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "总部/分支社招完整216条；3条总部北京技术岗位职责资格已取得，均要求博士；远期列示日期不代替报名期限，未称当前可提交。",
+    "action": "自动监控此入口的新内容；仅范围匹配且确认当前开放、材料足够才加工。"
+  },
+  "seed-41": {
+    "checkedAt": "2026-10-11T16:37:27.278Z",
+    "entryUrl": "https://app.mokahr.com/social-recruitment/jsfund/44123",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "官方Moka完整社招列表57条，基金/财富子公司已区分；6条基金本体详情完整读取，未发现明确软件算法岗位。",
+    "action": "自动监控此入口的新内容；仅范围匹配且确认当前开放、材料足够才加工。"
+  },
+  "seed-42": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://icbcubs.hotjob.cn/SU60419b4dbef57c66a923b081/pb/social.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "基金独立新招聘门户主体配置已核验；公开社招完整0条，不以工商银行接入替代，当前无详情样本。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-43": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://www.ccbfund.cn/resource/static/content/304560.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "基金独立招聘CMS已接入，最新完整栏目1篇为2027校园招聘，实际正文已取得，跳过模型。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-44": {
+    "checkedAt": "2026-10-13T01:44:16.116289+00:00",
+    "entryUrl": "https://www.ccbft.com/",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "本轮公司官网TLS连接失败；母行岗位不等于建信金科岗位。已有近期社招线索截止10月8日，不反复加工。",
+    "action": "需要公司恢复官网或提供新的独立社招官方入口；建行母行岗位不能归为该公司。",
+    "verification": {
+      "httpResult": "000 https://www.ccbft.com/",
+      "exitCode": 35
+    }
+  },
+  "seed-45": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://career.abchina.com.cn/build/index.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "独立农银金科目录10001183已核验，当前仅校园类别99，社招类别100未开放；可自动监控具体公司目录，当前无社招详情样本。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-46": {
+    "checkedAt": "2026-10-13T01:44:15.809480+00:00",
+    "entryUrl": "https://www.tech.icbc.com.cn/",
+    "outcome": "pending",
+    "owner": "source",
+    "reason": "普通请求和隔离浏览器均只读到公司介绍、地址及联系方式，无招聘入口；未取得独立社招材料。",
+    "action": "需要公司当前社招入口或完整岗位原文；官网无新入口时暂无法靠采集适配补齐。",
+    "verification": {
+      "httpResult": "200 https://www.tech.icbc.com.cn/",
+      "exitCode": 0
+    }
+  },
+  "seed-48": {
+    "checkedAt": "2026-10-13T03:29:50.592Z",
+    "entryUrl": "https://webapp.zhaopin.com/2026/bj/zgyhb0422ZL85165/job/index.html",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "独立智联社招专题及认证企业账号核验通过，完整17条列表、7条北京技术相关详情可自动读取。子公司按岗位原文与分类识别，不用母公司账号覆盖。投递页触发访问验证，当前报名开放尚未确认；不等于7个可投岗位。",
+    "action": "已自动监测；请打开具体技术岗位投递页，完成访问验证后确认是否仍可申请。未确认前零模型加工，已读详情只在内容变化时重查。"
+  },
+  "seed-50": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://ltsk.iguopin.com/",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "独立国聘公司10685311791703539实名核验，完整55条混合招聘中53条校招排除，2条北京社招截止2026-12-31且公开可投；正文只有资格要求，职责缺口保留，不调用模型。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  },
+  "seed-51": {
+    "checkedAt": "2026-10-11T18:00:38.103449+00:00",
+    "entryUrl": "https://wecruit.hotjob.cn/SU62b185f42f9d24458d716272/mc/position/society",
+    "outcome": "implemented",
+    "owner": "project",
+    "reason": "独立天翼云科技公司完整社招176条；详情可投状态已验证。3000年占位不视为报名期限，列表可投标志不替代详情；仅当前开放北京技术岗位加工。",
+    "action": "自动监控该具体范围；当前开放、北京地点和技术职责同时确认且材料够用才调用模型，提取与匹配共享每日50次上限。"
+  }
+}

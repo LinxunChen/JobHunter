@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "description": "内置公共机构示例目录，可在设置页暂停或移出。列入不代表当前招聘或完整接入。",
+  "items": [
+    {
+      "id": "seed-01",
+      "name": "中国银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-02",
+      "name": "工商银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-03",
+      "name": "农业银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-04",
+      "name": "建设银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-05",
+      "name": "邮储银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-06",
+      "name": "中信银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-07",
+      "name": "光大银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-08",
+      "name": "招商银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-09",
+      "name": "兴业银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-10",
+      "name": "浦发银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-11",
+      "name": "交通银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-12",
+      "name": "北京银行",
+      "category": "银行",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-13",
+      "name": "中国银保信",
+      "category": "金融基础设施与行业数据机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-14",
+      "name": "网联清算",
+      "category": "金融基础设施与行业数据机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-15",
+      "name": "中国结算",
+      "category": "金融基础设施与行业数据机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-16",
+      "name": "中央结算公司",
+      "category": "金融基础设施与行业数据机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-17",
+      "name": "北京证券交易所",
+      "category": "金融基础设施与行业数据机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-18",
+      "name": "全国股转公司",
+      "category": "金融基础设施与行业数据机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-19",
+      "name": "中国人寿保险股份有限公司",
+      "category": "保险机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-20",
+      "name": "人保财险",
+      "category": "保险机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-21",
+      "name": "中国信保",
+      "category": "保险机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-22",
+      "name": "中再集团",
+      "category": "保险机构",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-23",
+      "name": "中国移动研究院",
+      "category": "运营商研究院",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-24",
+      "name": "中国联通研究院",
+      "category": "运营商研究院",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-25",
+      "name": "中国电信研究院",
+      "category": "运营商研究院",
+      "tier": "core",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-26",
+      "name": "国家开发银行",
+      "category": "开发性、政策性银行",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-27",
+      "name": "中国进出口银行",
+      "category": "开发性、政策性银行",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-28",
+      "name": "中国农业发展银行",
+      "category": "开发性、政策性银行",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-29",
+      "name": "国家电网",
+      "category": "能源与行业基础设施",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-30",
+      "name": "国家能源集团",
+      "category": "能源与行业基础设施",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-31",
+      "name": "中国石油",
+      "category": "能源与行业基础设施",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-32",
+      "name": "中国石化",
+      "category": "能源与行业基础设施",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-33",
+      "name": "中国海油",
+      "category": "能源与行业基础设施",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-34",
+      "name": "中国航信",
+      "category": "能源与行业基础设施",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-35",
+      "name": "中信证券",
+      "category": "证券公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-36",
+      "name": "中金公司",
+      "category": "证券公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-37",
+      "name": "中信建投证券",
+      "category": "证券公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-38",
+      "name": "中国银河证券",
+      "category": "证券公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-39",
+      "name": "易方达基金",
+      "category": "基金公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-40",
+      "name": "华夏基金",
+      "category": "基金公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-41",
+      "name": "嘉实基金",
+      "category": "基金公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-42",
+      "name": "工银瑞信基金",
+      "category": "基金公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-43",
+      "name": "建信基金",
+      "category": "基金公司",
+      "tier": "extended",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-44",
+      "name": "建信金融科技",
+      "category": "科技子公司观察",
+      "tier": "observation",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-45",
+      "name": "农银金融科技",
+      "category": "科技子公司观察",
+      "tier": "observation",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-46",
+      "name": "工银科技",
+      "category": "科技子公司观察",
+      "tier": "observation",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-47",
+      "name": "中银金融科技",
+      "category": "科技子公司观察",
+      "tier": "observation",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-48",
+      "name": "银保信科技（北京）有限公司",
+      "category": "科技子公司观察",
+      "tier": "observation",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-49",
+      "name": "中移九天相关招聘主体",
+      "category": "科技子公司观察",
+      "tier": "observation",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-50",
+      "name": "联通数字科技",
+      "category": "科技子公司观察",
+      "tier": "observation",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    },
+    {
+      "id": "seed-51",
+      "name": "天翼云科技",
+      "category": "科技子公司观察",
+      "tier": "observation",
+      "identityVerification": "monitoring_object_only",
+      "note": "按官方原文核验地点、职责与招聘主体"
+    }
+  ]
+}

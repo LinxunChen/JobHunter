@@ -1,0 +1,32 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtempSync,rmSync} from 'node:fs';
+import {join} from 'node:path';
+import {tmpdir} from 'node:os';
+import {createApplication} from '../src/application.mjs';
+test('异步检查持久进度与周期共用互斥，重复点击复用任务，暂停中断后续外呼且不发送刷新备份',async t=>{
+ const dir=mkdtempSync(join(tmpdir(),'jh-check-'));let release,requests=0,sends=0,career=0;
+ const wait=new Promise(resolve=>release=resolve);
+ const app=createApplication({databasePath:join(dir,'data.sqlite'),now:()=>new Date('2026-10-08T02:00:00Z'),sourceFetch:async()=>{requests++;await wait;return new Response('',{status:302,headers:{location:'https://wecruit.hotjob.cn/SU67ac68866202cc7916aea66e/pb/index.html'}});},announcementProcessor:null,matchingProcessor:null,careerSource:{readCareerOverview:async()=>{career++;throw Error('unexpected');}},notificationTransport:{enabled:true,simulated:true,send:async()=>{sends++;throw Error('unexpected');}}});
+ t.after(()=>{app.close();rmSync(dir,{recursive:true,force:true});});
+ const task=app.startSourceCheck({sourceIds:['efunds-social']});assert.ok(task.id);assert.equal(task.status,'running');
+ await new Promise(resolve=>setImmediate(resolve));assert.equal(requests,1);
+ await assert.rejects(app.checkBocSource(),/正在检查/);assert.equal(requests,1);
+ assert.equal(app.startSourceCheck({sourceIds:['efunds-social']}).id,task.id);assert.equal((await app.runScheduledCycle()).status,'busy');
+ app.updateMonitoringObject('seed-39',{monitoringStatus:'paused'});release();
+ await app.waitForSourceCheck(task.id);const result=app.getSourceCheckTask(task.id);
+ assert.equal(result.status,'partial');assert.equal(requests,1);assert.equal(sends,0);assert.equal(career,0);assert.equal(app.listBackups().length,0);assert.equal(app.listScheduledRuns().length,0);assert.equal(app.listNotificationAttempts().length,0);
+ assert.throws(()=>app.startSourceCheck({sourceIds:['not-a-source']}));assert.throws(()=>app.startSourceCheck({sourceIds:['efunds-social']}),/暂停|可检查/);
+ app.updateMonitoringObject('seed-39',{monitoringStatus:'active'});assert.equal(requests,1);
+});
+test('进程中断保留任务与已完成步骤，GET投影为中断，新检查可恢复共同互斥',async t=>{
+ const {spawn}=await import('node:child_process');const dir=mkdtempSync(join(tmpdir(),'jh-check-crash-')),databasePath=join(dir,'data.sqlite');
+ const options={databasePath,announcementProcessor:null,matchingProcessor:null,careerSource:null,sourceFetch:async()=>{throw Error('controlled');}};
+ const app=createApplication(options);t.after(()=>{app.close();rmSync(dir,{recursive:true,force:true});});
+ const child=spawn(process.execPath,['--input-type=module','-e',`import {createApplication} from './src/application.mjs';const app=createApplication({databasePath:${JSON.stringify(databasePath)},announcementProcessor:null,matchingProcessor:null,careerSource:null,sourceFetch:async()=>{console.log('blocked');return new Promise(()=>{});}});console.log(JSON.stringify(app.startSourceCheck({sourceIds:['efunds-social']})));await new Promise(()=>{});`],{cwd:process.cwd(),stdio:['ignore','pipe','pipe']});
+ t.after(()=>{if(child.exitCode===null)child.kill('SIGKILL');});
+ let output='';await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(Error('child did not start')),5000);child.stdout.on('data',chunk=>{output+=chunk;if(output.includes('blocked')){clearTimeout(timeout);resolve();}});child.once('error',reject);});
+ const task=JSON.parse(output.split('\n').find(line=>line.startsWith('{')));assert.equal(app.getSourceCheckTask(task.id).status,'running');
+ child.kill('SIGKILL');await new Promise(resolve=>child.once('exit',resolve));assert.equal(app.getSourceCheckTask(task.id).status,'interrupted');
+ const next=app.startSourceCheck({sourceIds:['efunds-social']});assert.notEqual(next.id,task.id);await app.waitForSourceCheck(next.id);assert.equal(app.getSourceCheckTask(task.id).status,'interrupted');assert.equal(app.getSourceCheckTask(next.id).status,'partial');
+});

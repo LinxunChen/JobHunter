@@ -1,0 +1,23 @@
+{
+  "url": "https://gzw.beijing.gov.cn/yggq/gqzp/202204/t20220408_2670133.html",
+  "evidenceUse": "historical",
+  "sha256": "fda8c7ce3ff419171386fd230aae6760f9b7ab7ff33208d3e83fb373e813d8d1",
+  "bytes": 37257,
+  "source": "Read-only reuse of root .runtime/beijing-soe-exploration/historical-chemical.html; full original, not a current opportunity",
+  "bodyJobs": [
+    "投资部部长岗位",
+    "财务部副部长岗位"
+  ],
+  "deadlineRaw": "2022年4月21日17:00",
+  "publicationRaw": "2022-04-07 18:20",
+  "dateWarning": "列表日期、发布日期、报名截止分别保存；时区未披露不补造。TDD边界model替身不等于真实模型质量。",
+  "modelOutputReplay": {
+    "file": "model-output-retry.json",
+    "sha256": "27a6000a3e2a1abae56f917ff42f94035e4c8b693f007e5510e5d099c2217f0b",
+    "origin": "Actual second Codex validated extraction from saved historical body; validator-added evidence start/end removed only for schema replay",
+    "actualCallTotalDurationMs": 123424,
+    "originalFullModelReceipt": "lost by old postprocessing catch; usage and exact model duration unknown",
+    "applicationResultBeforeFix": "failed: bare URL www.gongzhao.com.cn; jobs=0",
+    "verification": "fixed public deterministic replay only, no third external model call"
+  }
+}

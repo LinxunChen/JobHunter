@@ -1,0 +1,17 @@
+.DS_Store
+
+.worktrees/
+.data/
+.runtime/
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Personal project notes and local exports are never release source.
+.scratch/
+*.local.json
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
